@@ -23,8 +23,6 @@ const getQuotes = async () => {
     return list;
   });
 
-  console.log(quotes[0]);
-
   await browser.close();
 };
 
